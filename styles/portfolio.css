@@ -1,0 +1,39 @@
+.potfolio {
+  text-align: center;
+  background-color: var(--bg-main-grey);
+  color: var(--color-main-black);
+  padding: 80px 20px 100px;
+}
+
+.portfolio-title {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0;
+}
+
+.portfolio-picture {
+  width: min(100%, 950px);
+  height: min(100%, 630px);
+  object-fit: contain;
+  margin: 75px 0 40px;
+}
+
+.portfolio-description {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0;
+}
+
+@media (max-width: 480px) {
+  .portfolio-description {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .portfolio-picture {
+    margin: 50px 0 30px;
+  }
+  
+}
