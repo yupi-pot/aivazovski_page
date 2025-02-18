@@ -48,6 +48,27 @@
   right: 0;
 }
 
+.to-top-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: var(--font-color-grey);
+  color: var(--bg-main);
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  opacity: 0.8;
+}
+
+.to-top-btn:hover {
+  background-color: var(--color-main-black);
+  opacity: 1;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
 @media (max-width: 480px) {
   .header {
     display: none;
